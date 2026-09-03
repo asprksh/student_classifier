@@ -34,7 +34,7 @@ model.load_state_dict(torch.load("student_classifier_pass_fail.pth", map_locatio
 model.eval()
 
 # ---------------- UI ----------------
-st.title("Student Pass/Fail Predictor hello")
+st.title("Student Pass/Fail Predictor")
 
 study_hours = st.slider(
     "Study Hours per Day",
